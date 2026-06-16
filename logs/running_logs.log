@@ -265,3 +265,15 @@ x==========x:]
 [2026-06-14 13:36:26,339: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x:]
+[2026-06-15 17:40:58,251: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.7:8080:]
+[2026-06-15 17:40:58,253: INFO: _internal: [33mPress CTRL+C to quit[0m:]
+[2026-06-15 17:41:17,939: INFO: _internal: 127.0.0.1 - - [15/Jun/2026 17:41:17] "GET / HTTP/1.1" 200 -:]
+[2026-06-15 17:41:18,504: INFO: _internal: 127.0.0.1 - - [15/Jun/2026 17:41:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -:]
+[2026-06-15 17:43:19,641: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.:]
+[2026-06-15 17:43:19,662: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.:]
+[2026-06-15 17:43:21,926: INFO: _internal: 127.0.0.1 - - [15/Jun/2026 17:43:21] "POST /predict HTTP/1.1" 200 -:]
+[2026-06-15 17:44:17,803: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.:]
+[2026-06-15 17:44:19,035: INFO: _internal: 127.0.0.1 - - [15/Jun/2026 17:44:19] "POST /predict HTTP/1.1" 200 -:]
